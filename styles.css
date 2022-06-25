@@ -1,0 +1,44 @@
+body {
+  margin: 0, auto;
+  padding: 2em;
+  background-color: #f2f1f1;
+}
+
+.dark-mode {
+  background-color: rgb(26, 25, 25);
+  color: #f2f1f1;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  color: green;
+}
+
+.container {
+  margin-top: 5em;
+}
+
+.card {
+  color: white;
+  background-color: green;
+  box-shadow: 0 0 15px 0 green;
+  animation: fadeInUp;
+  animation-duration: 1s;
+}
+
+.card-title {
+  font-family: "Merriweather", serif;
+}
+
+button {
+  float: right;
+  border: none;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
